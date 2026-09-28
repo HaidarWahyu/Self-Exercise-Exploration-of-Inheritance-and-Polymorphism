@@ -25,34 +25,6 @@ javac *.java
 java Main
 ```
 
-## Sample Output
-
-```
-==========================================
-   OBJECT EXPLORATION: SHAPE, SQUARE,
-        CIRCLE, AND CYLINDER
-==========================================
-
---- Object Info ---
-1. Square colored red, area = 25.00
-2. Circle blue, area = 28.27
-3. Cylinder green, volume = 282.74
-
---- Calculation Results ---
-Square Area      : 25.00
-Circle Area      : 28.27
-Cylinder Volume  : 282.74
-
---- Getter and Setter ---
-Square color before : red
-Square color after  : yellow
-Latest info         : Square colored yellow, area = 25.00
-
-==========================================
-```
-
----
-
 ## OOP Concepts in the Code
 
 ### 1. Abstraction
@@ -275,6 +247,35 @@ circle.printInfo();
 System.out.print("3. ");
 cylinder.printInfo();
 ```
+
+
+## Sample Output
+
+```
+==========================================
+   OBJECT EXPLORATION: SHAPE, SQUARE,
+        CIRCLE, AND CYLINDER
+==========================================
+
+--- Object Info ---
+1. Square colored red, area = 25.00
+2. Circle blue, area = 28.27
+3. Cylinder green, volume = 282.74
+
+--- Calculation Results ---
+Square Area      : 25.00
+Circle Area      : 28.27
+Cylinder Volume  : 282.74
+
+--- Getter and Setter ---
+Square color before : red
+Square color after  : yellow
+Latest info         : Square colored yellow, area = 25.00
+
+==========================================
+```
+
+---
 
 Result:
 
